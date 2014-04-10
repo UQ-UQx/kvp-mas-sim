@@ -1,0 +1,98 @@
+html, body, div, p, a, li, ul, img, h1, h2, form{
+	font-family: Arial, Helvetica, sans-serif;
+	margin:0px;
+	padding:0px;
+	text-align: left;
+	border: none;
+	outline: none;
+	text-decoration: none;
+	text-emphasis: none;
+	display:block;
+	font-size:14px;
+	list-style-type:none;	
+}
+
+#kvp-mas-container {
+	width: 812px;
+	height: 410px;
+}
+
+#kvp-dropdown, #ma-dropdown, #time-dropdown {
+	position: absolute;
+	top: 55px;
+	width: 60px;
+}
+
+#kvp-dropdown {
+	left: 40px;
+}
+
+#ma-dropdown {
+	left: 120px;
+}
+
+#time-dropdown {
+	left: 200px;
+}
+
+#stepped-taper-container {
+	position: absolute;
+	top: 120px;
+	left: 20px;
+	height: 180px;
+	width: 260px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+#stepped-taper {
+	background-image: url('output-grid.jpg');
+	background-position: 0 0px; /* shift along x y */
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	height: 160px;
+	width: 240px;
+}
+
+#ma-label, #kvp-label, #time-label {
+	position: absolute;
+	top: 30px;
+	width: 40px;
+	height: 10px;
+}
+
+#kvp-label {
+	left: 60px;
+}
+
+#ma-label {
+	left: 140px;
+}
+
+#time-label {
+	left: 220px;
+}
+
+#stepped-taper-3d {
+	background-image: url('kvp-steps.jpg');
+	background-position: 0 0px;
+	position: absolute;
+	top: 50px;
+	left: 300px;
+	background-color: black;
+	height: 340px;
+	width: 360px;
+}
+
+#time-3d {
+	position: absolute;
+	top: 40px;
+	left: 430px;
+	height: 20px;
+	width: 130px;
+	border-bottom-style: solid;
+	border-width: 2px;
+	text-align: center;
+	font-size: 1.2em;
+}
